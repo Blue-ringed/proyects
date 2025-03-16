@@ -33,6 +33,10 @@ const nextConfig = {
       },
     ],
   },
+  basePath: "/neumaticos-aissa-web" // Reemplaza con el nombre de tu repositorio
+};
+
+module.exports = nextConfig;
 };
 
 export default nextConfig;
