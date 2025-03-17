@@ -1,0 +1,157 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/favicon.png">
+  <title>Mi primera Página WEB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap" rel="stylesheet">
+</head>
+<style>
+	body{
+		padding: 10px;
+		font-family: 'Oxanium', sans-serif;
+	}
+        form {
+            padding: 20px;
+            max-width: 500px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        form input, form textarea {
+            width: 80%;
+            padding: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            width: 80%;
+            padding: 8px;
+			margin:5px;
+            background-color: #f4942a;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+			font-family: 'Oxanium', sans-serif;
+        }
+        form button:hover {
+            background-color:#ff6347;
+        }
+</style>
+<body bgcolor="#2a861e" >
+	<table border="0" WIDTH="100%" HEIGHT="100%" bgcolor="#2a861e">
+		<tr HEIGHT="15">
+			<td COLSPAN="3" ALIGN="CENTER" bgcolor="white">
+			<!-- ZONA DE LA CABECERA -->
+			<h1  style="font-weight:800;margin-top: 15px;margin-bottom: 15px;margin-right:7%;"><img align="left" style="margin-left:4%" width="30px" src="img/rubik_6.png">RUBIKS CUBE </h1>
+		</tr>
+		<tr HEIGHT="70%">
+			<td WIDTH="10%" ALIGN="CENTER" bgcolor="#f4942a">
+				<!-- zona de ENLACES INTERNOS -->
+				<table border="0" width="100%" height="100%">
+					<tr><!--Fila 1-->
+						<td align="center">
+							<A HREF="index.html" TARGET="_SELF" style="text-decoration: none;">
+								INICIO
+							</a>
+						</td>
+					</tr>
+					<tr><!--Fila 2-->
+						<td align="center">
+							<A HREF="quienes.html" TARGET="_SELF" style="text-decoration: none;">
+								SOBRE MÍ
+							</a>				
+						</td>
+					</tr>
+					<tr><!--Fila 3-->
+						<td align="center">
+							<A HREF="productos.html" TARGET="_SELF" style="text-decoration: none;">
+								TIENDA
+							</a>				
+						</td>
+					</tr>
+					<tr><!--Fila 4-->
+						<td align="center">
+							<A HREF="videos.html" TARGET="_SELF" style="text-decoration: none;">
+								GALERIA
+							</a>				
+						</td>
+					</tr>
+					<tr><!--Fila 5-->
+						<td align="center">
+							<A HREF="donde.html" TARGET="_SELF" style="text-decoration: none;">
+								UBICACIÓN
+							</a>				
+						</td>
+					</tr>
+					<tr><!--Fila 6-->
+						<td align="center">
+							<A HREF="contactanos.html" TARGET="_SELF" style="text-decoration: none;">
+								CONTACTO
+							</a>				
+						</td>
+					</tr>
+				</table>
+				
+			</td>
+			<td WIDTH="80%"ALIGN="center" bgcolor="#0057e2" style="color:white">
+				<h2>Formulario de Contacto</h2>
+				<form action="enviado.html">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre">
+					<label for="email">Correo Electrónico:</label>
+					<input type="email" id="email">
+					<label for="asunto">Asunto:</label>
+					<input type="text" id="asunto">
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje"rows=4></textarea>
+					<button type="submit">Enviar</button>
+				</form>
+			</td>
+			<td WIDTH="10%" ALIGN="CENTER" bgcolor="#cc1314">
+				<!-- zona de ENLACES EXTERNOS -->
+				<table border="0" width="100%" height="100%">
+					<tr><!--Fila 1-->
+						<td align="center">
+							<A HREF="https://www.rubiks.com" TARGET="_BLANK">
+								<img width="150" src="img/rubik-logo.png">
+							</a>
+						</td>
+					</tr>
+					<tr><!--Fila 2-->
+						<td align="center">
+							<A HREF="https://moyu.com.pk" TARGET="_BLANK">
+								<img width="150" src="img/moyu-logo.jpg">
+							</a>				
+						</td>
+					</tr>
+					<tr><!--Fila 3-->
+						<td align="center">
+							<A HREF="https://www.gancube.com/" TARGET="_BLANK">
+								<img width="150" src="img/gan-logo.png">
+							</a>				
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<a href="http://www.qiyitoys.net" target="_blank">
+							<img width="150" src="img/qiyi-logo.jpg">
+							</a>
+						</td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr HEIGHT="10%">
+			<td COLSPAN="3" ALIGN="CENTER" bgcolor="#fff150">
+			<!-- zona de PIE DE LA WEB -->
+			 <B>@copyright todos los derechos reservados 2025<B>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
