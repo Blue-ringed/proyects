@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0077b6, #004466);
+    color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.header-content {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.header-content .profile-pic {
+    width: 100%;
+    max-width: 300px; /* Ajusta este valor según el tamaño de tu imagen */
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border-radius: 10px; /* Añade un borde suave para un aspecto más profesional */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+h2 {
+    color: #004466;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #0077b6;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.skill-card, .project-card {
+    background: #f9f9f9;
+    border-left: 8px solid #0077b6;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card h3, .project-card h3 {
+    display: flex;
+    align-items: center;
+}
+
+.skill-card h3 i, .project-card h3 i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #0077b6;
+}
+
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #004466;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
